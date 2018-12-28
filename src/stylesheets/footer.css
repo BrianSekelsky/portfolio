@@ -1,0 +1,26 @@
+.footer-area{
+	min-height: 100px;
+	text-align: center;
+	color: black;
+	padding-top:2.5rem;
+	font-weight: 500;
+	background-color: white;
+}
+
+.footer-link{
+	font-weight: 500;
+}
+
+.footer-link1{
+	color: var(--color1dark);
+}
+.footer-link2{
+	color: var(--color5);
+}
+.footer-link3{
+	color: var(--color4);
+}
+
+.footer-link:hover{
+	color: black;
+}

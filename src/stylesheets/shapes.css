@@ -1,0 +1,239 @@
+/*animation build the pyramid*/
+@keyframes show{
+	0% { opacity: 0; }
+  	100% { 
+  			opacity: 1;
+  		 }
+}
+
+.anime{
+	background-color: var(--color1);
+	color: var(--color2);
+	text-align: center;
+}
+
+.block1{
+	fill: var(--color3);
+	x: 25%;
+	y: 80%;
+	opacity: 0;
+	animation-name: show;
+    animation-duration: 1s;
+    animation-delay: 0s;
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.block2{
+	fill: var(--color1dark);
+	x: 35%;
+	y: 80%;
+	opacity: 0;
+	animation-name: show;
+    animation-duration: 1s;
+    animation-delay: 1s;
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.block3{
+	fill: var(--color5);
+	x: 45%;
+	y: 80%;
+	opacity: 0;
+	animation-name: show;
+    animation-duration: 1s;
+    animation-delay: 4s;
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.block4{
+	fill: var(--color1dark);
+	x: 55%;
+	y: 80%;
+	opacity: 0;
+	animation-name: show;
+    animation-duration: 1s;
+    animation-delay: 3s;
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.block5{
+	fill: var(--color4dark);
+	x: 65%;
+	y: 80%;
+	opacity: 0;
+	animation-name: show;
+    animation-duration: 1s;
+    animation-delay: 6s;
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.block6{
+	fill: var(--color4dark);
+	x: 30%;
+	y: 60%;
+	opacity: 0;
+	animation-name: show;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.block7{
+	fill: var(--color3);
+	x: 40%;
+	y: 60%;
+	opacity: 0;
+	animation-name: show;
+    animation-duration: 1s;
+    animation-delay: 5s;
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.block8{
+	fill: var(--color4dark);
+	x: 50%;
+	y: 60%;
+	opacity: 0;
+	animation-name: show;
+    animation-duration: 1s;
+    animation-delay: 8s;
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.block9{
+	fill: var(--color5);
+	x: 60%;
+	y: 60%;
+	opacity: 0;
+	animation-name: show;
+    animation-duration: 1s;
+    animation-delay: 7s;
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.block10{
+	fill: var(--color5);
+	x: 35%;
+	y: 40%;
+	opacity: 0;
+	animation-name: show;
+    animation-duration: 1s;
+    animation-delay: 9s;
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.block11{
+	fill: var(--color1dark);
+	x: 45%;
+	y: 40%;
+	opacity: 0;
+	animation-name: show;
+    animation-duration: 1s;
+    animation-delay: 11s;
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.block12{
+	fill: var(--color3);
+	x: 55%;
+	y: 40%;
+	opacity: 0;
+	animation-name: show;
+    animation-duration: 1s;
+    animation-delay: 10s;
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.block13{
+	fill: var(--color4dark);
+	x: 40%;
+	y: 20%;
+	opacity: 0;
+	animation-name: show;
+    animation-duration: 1s;
+    animation-delay: 12s;
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.block14{
+	fill: var(--color5);
+	x: 50%;
+	y: 20%;
+	opacity: 0;
+	animation-name: show;
+    animation-duration: 1s;
+    animation-delay: 13s;
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+
+.block15{
+	fill: var(--color3);
+	x: 45%;
+	y: 0%;
+	opacity: 0;
+	animation-name: show;
+    animation-duration: 1s;
+    animation-delay: 14s;
+    -webkit-animation-fill-mode: forwards;
+	-moz-animation-fill-mode: forwards;
+	-ms-animation-fill-mode: forwards;
+	-o-animation-fill-mode: forwards;
+	animation-fill-mode: forwards;
+}
+

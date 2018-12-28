@@ -1,0 +1,111 @@
+/* define color pallette */
+:root{
+  --color1: #64b5f6;
+  --color2: white;
+  --color3: #fff176;
+  --color4: #66bb6a;
+  --color5: #f44336;
+
+  --color1dark: #2196f3;
+  --color4dark: #4caf50;
+}
+
+.navbar-brand{
+	margin: auto;
+}
+
+.nav{
+	margin: auto;
+}
+
+.row{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.img-fluid{
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	width: 100%;
+	z-index: 2;
+}
+
+body{
+	font-family: 'Karla', sans-serif;
+}
+
+h1{
+	font-family: 'Merriweather', serif;
+	font-weight: 700;
+	text-align: center;
+}
+
+h2{
+	padding-bottom: 2vh;
+}
+h4{
+	font-size: 1rem;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+
+h6{
+	font-weight: 400;
+}
+
+.list-group-item{
+	color: black;
+}
+
+.colored{
+	border: 0;
+	background-color: var(--color4dark);
+	color: white;
+}
+
+a:hover{
+	text-decoration: none;
+	color: black;
+}
+a{
+	color: black;
+}
+
+.col-lg-2{
+	min-height: 0;
+}
+.desc-card{
+	margin: 0;
+}
+
+/* not phones ----------- */
+@media (min-width: 576px) {
+	h1{
+		text-align: center;
+	}
+	.nav{
+		margin: 0;
+	}
+
+	.navbar-brand{
+		margin: 0;
+	}
+}
+
+/* bigger than tablet ----*/
+@media (min-width: 800px){
+
+	.navbar .container{
+		width: 85%;
+	}
+
+}
+
+/* jumbotron animation */
+
+.jumbotron{
+	margin-bottom: 0rem;
+	background-color: white;
+	border-radius: 100%/0 0 50px 50px;
+  	box-shadow: 0 20px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}

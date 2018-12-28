@@ -1,0 +1,65 @@
+.project{
+	margin-top: 2rem;
+	background-color: white;
+	border-radius: 20px;
+  border-style: solid;
+  border-width: 0px;
+  font-size: 1rem;
+	box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: box-shadow 0.3s cubic-bezier(.25,.8,.25,1);
+    /*-webkit-animation: slideUp 1.5s backwards;
+    -moz-animation:    slideUp 1.5s backwards;
+    -o-animation:      slideUp 1.5s backwards;
+  	animation: slideUp 1.5s backwards;*/
+}
+.projects-title{
+  font-family: Karla;
+  padding-top: 40px;
+}
+#projects{
+  background-color: white;
+  border-radius: 10px;
+  padding-bottom: 40px;
+  /*box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);*/
+  border-radius: 100%/50px 50px 0px 0px;
+  box-shadow: 0 0px 30px rgba(0,0,0,0.25), 0 0px 10px rgba(0,0,0,0.22);
+  margin: 0 auto;
+}
+.hide{
+  padding: 20px;
+  border-top: gray;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.project:hover {
+  /*animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;*/
+  transform: translate3d(0, 0, 0);
+  perspective: 1000px;
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  cursor: pointer;
+  border-color: white;
+}
+/*.project:hover .hide {
+  display: block;
+}
+.project:hover .img-fluid {
+  opacity: 0;
+}*/
+
+@keyframes shake {
+  10%, 90% {
+    transform: translate3d(-1px, 0, 0);
+  }
+  
+  20%, 80% {
+    transform: translate3d(2px, 0, 0);
+  }
+
+  30%, 50%, 70% {
+    transform: translate3d(-4px, 0, 0);
+  }
+
+  40%, 60% {
+    transform: translate3d(4px, 0, 0);
+  }
+}

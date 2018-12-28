@@ -1,0 +1,56 @@
+.jumbo{
+	text-align: center;
+	max-height: 65vh;
+	min-height: 65vh;
+	transform: translate(0px, -700px);
+	animation-name: slide;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes slide {
+	from {
+		transform: translate(0px, -700px);
+	}
+    to {
+    	transform: translate(0px, 0px);
+    }
+}
+
+@keyframes fade-in {
+	from {
+		color: transparent;
+	}
+    to {
+    	color: black;
+    }
+}
+
+.name{
+	font-size: 4rem;
+	color: transparent;
+	animation-name: fade-in;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+.lead{
+	color: transparent;
+	animation-name: fade-in;
+    animation-duration: 1s;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}
+
+@media (min-width: 800px) {
+	.name{
+		font-size: 8rem;
+	}
+}
+
+@media (min-width: 1000px) {
+	.name{
+		padding-top: 40px;
+	}
+}
