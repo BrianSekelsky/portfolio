@@ -53,6 +53,9 @@ class Container extends Component {
 				    					<div className="desc-card">
 					    					<div className="about-desc">
 					    						<h3 className="myName">I'm Brian.</h3>
+											<p>
+							    					This was my old portfolio website. I decided to switch to something simpler but I wanted to keep this here because I still think it's interesting to see and it has links to some older projects. Here's what the original text said:
+							    				</p>
 					    						<p>
 							    					In 2016 I graduated from the University of Wisconsin - Madison with a B.S. in <b>Computer Science</b> and a certificate in <b>Studio Art.</b> Immediately after graduating I joined the Peace Corps and was sent off to Tanzania to learn Swahili and become a Computer/Math teacher at a secondary school of ~1000 students.
 							    				</p>
